@@ -229,3 +229,39 @@ body {
 .back {
   backface-visibility: hidden;
 }
+
+/* Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  height: 120%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background: #89bad1;
+  margin: auto;
+  border: 1px solid black;
+  width: 80%;
+  height: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal-content p {
+  padding: 20px;
+}
+
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  align-items: flex-end;
+}
