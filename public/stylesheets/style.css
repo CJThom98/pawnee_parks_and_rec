@@ -95,10 +95,10 @@
   margin: 0 auto;
   border: auto;
   border-radius: 5;
-  color: white;
+  color: black;
 }
 .complaint-button {
-  border-radius: 25%;
+  border-radius: 15%;
 }
 
 /*Styling Meet the Staff*/
