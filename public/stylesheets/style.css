@@ -134,7 +134,7 @@ footer {
   width: 100%;
   padding: 40px 35px;
   text-align: center;
-  position: fixed;
+  /* position: fixed; */
 }
 footer h2 {
   display: inline;
